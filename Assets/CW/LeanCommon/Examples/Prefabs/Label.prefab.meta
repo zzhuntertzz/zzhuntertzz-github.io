@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Third-Party/CW/LeanCommon/Examples/Prefabs/Label.prefab.meta
+guid: b06e85cdb86ff204aa4c8e276668b4c4
+timeCreated: 1566952951
+licenseType: Store
+========
+guid: 078aee51df95f0741aa53c45a07866f8
+>>>>>>>> dev-cycle-15:Assets/Airbridge/Resources/AirbridgeData.asset.meta
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

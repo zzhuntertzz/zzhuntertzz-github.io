@@ -1,0 +1,289 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5011079926181403265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4645182149306387933}
+  - component: {fileID: 2596794108256340585}
+  - component: {fileID: 5870799052968374581}
+  - component: {fileID: 6366430375323513183}
+  m_Layer: 0
+  m_Name: ProductManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4645182149306387933
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5011079926181403265}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2596794108256340585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5011079926181403265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a95a12ef36443499af92bf7f32c204, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lstProduct:
+  - id: no_ad
+    type: 1
+    storeIDs: []
+    defaultDescription:
+      googleLocale: 4
+      title: Remove ad
+      description: Remove banner and interstitial ad
+    screenshotPath: 
+    applePriceTier: 3
+    googlePrice:
+      data: 2b010000000000000000000000000200
+      num: 2.99
+    pricingTemplateID: 
+    descriptions: []
+    udpPrice:
+      data: 00000000000000000000000000000000
+      num: 0
+    payouts: []
+  - id: vip_auto
+    type: 1
+    storeIDs: []
+    defaultDescription:
+      googleLocale: 4
+      title: Vip Auto
+      description: Auto roll & merge weapons
+    screenshotPath: 
+    applePriceTier: 5
+    googlePrice:
+      data: f3010000000000000000000000000200
+      num: 4.99
+    pricingTemplateID: 
+    descriptions: []
+    udpPrice:
+      data: 00000000000000000000000000000000
+      num: 0
+    payouts: []
+  - id: vip_idle
+    type: 1
+    storeIDs: []
+    defaultDescription:
+      googleLocale: 4
+      title: Vip Idle
+      description: Double idle reward
+    screenshotPath: 
+    applePriceTier: 2
+    googlePrice:
+      data: c7000000000000000000000000000200
+      num: 1.99
+    pricingTemplateID: 
+    descriptions: []
+    udpPrice:
+      data: 00000000000000000000000000000000
+      num: 0
+    payouts: []
+  - id: coin_1
+    type: 0
+    storeIDs: []
+    defaultDescription:
+      googleLocale: 4
+      title: Coin Pack 1
+      description: Give you 1K Coins
+    screenshotPath: 
+    applePriceTier: 2
+    googlePrice:
+      data: c7000000000000000000000000000200
+      num: 1.99
+    pricingTemplateID: 
+    descriptions: []
+    udpPrice:
+      data: 00000000000000000000000000000000
+      num: 0
+    payouts: []
+  - id: coin_2
+    type: 0
+    storeIDs: []
+    defaultDescription:
+      googleLocale: 4
+      title: Coin Pack 2
+      description: Give you 10K Coins
+    screenshotPath: 
+    applePriceTier: 4
+    googlePrice:
+      data: 8f010000000000000000000000000200
+      num: 3.99
+    pricingTemplateID: 
+    descriptions: []
+    udpPrice:
+      data: 00000000000000000000000000000000
+      num: 0
+    payouts: []
+  - id: coin_3
+    type: 0
+    storeIDs: []
+    defaultDescription:
+      googleLocale: 4
+      title: Coin Pack 3
+      description: Give you 100K Coins
+    screenshotPath: 
+    applePriceTier: 10
+    googlePrice:
+      data: e7030000000000000000000000000200
+      num: 9.99
+    pricingTemplateID: 
+    descriptions: []
+    udpPrice:
+      data: 00000000000000000000000000000000
+      num: 0
+    payouts: []
+  - id: gem_1
+    type: 0
+    storeIDs: []
+    defaultDescription:
+      googleLocale: 4
+      title: Gem Pack 1
+      description: Give you 100 Gems
+    screenshotPath: 
+    applePriceTier: 2
+    googlePrice:
+      data: c7000000000000000000000000000200
+      num: 1.99
+    pricingTemplateID: 
+    descriptions: []
+    udpPrice:
+      data: 00000000000000000000000000000000
+      num: 0
+    payouts: []
+  - id: gem_2
+    type: 0
+    storeIDs: []
+    defaultDescription:
+      googleLocale: 4
+      title: Gem Pack 2
+      description: Give you 500 Gems
+    screenshotPath: 
+    applePriceTier: 4
+    googlePrice:
+      data: 8f010000000000000000000000000200
+      num: 3.99
+    pricingTemplateID: 
+    descriptions: []
+    udpPrice:
+      data: 00000000000000000000000000000000
+      num: 0
+    payouts: []
+  - id: gem_3
+    type: 0
+    storeIDs: []
+    defaultDescription:
+      googleLocale: 4
+      title: Gem Pack 3
+      description: Give you 10K Gems
+    screenshotPath: 
+    applePriceTier: 10
+    googlePrice:
+      data: e7030000000000000000000000000200
+      num: 9.99
+    pricingTemplateID: 
+    descriptions: []
+    udpPrice:
+      data: 00000000000000000000000000000000
+      num: 0
+    payouts: []
+  - id: energy_1
+    type: 0
+    storeIDs: []
+    defaultDescription:
+      googleLocale: 4
+      title: Energy Pack 1
+      description: Give you 50 Energy
+    screenshotPath: 
+    applePriceTier: 2
+    googlePrice:
+      data: c7000000000000000000000000000200
+      num: 1.99
+    pricingTemplateID: 
+    descriptions: []
+    udpPrice:
+      data: 00000000000000000000000000000000
+      num: 0
+    payouts: []
+  - id: energy_2
+    type: 0
+    storeIDs: []
+    defaultDescription:
+      googleLocale: 4
+      title: Energy Pack 2
+      description: Give you 250 Energy
+    screenshotPath: 
+    applePriceTier: 4
+    googlePrice:
+      data: 8f010000000000000000000000000200
+      num: 3.99
+    pricingTemplateID: 
+    descriptions: []
+    udpPrice:
+      data: 00000000000000000000000000000000
+      num: 0
+    payouts: []
+  - id: energy_3
+    type: 0
+    storeIDs: []
+    defaultDescription:
+      googleLocale: 4
+      title: Energy Pack 3
+      description: Give you 5K Energy
+    screenshotPath: 
+    applePriceTier: 10
+    googlePrice:
+      data: e7030000000000000000000000000200
+      num: 9.99
+    pricingTemplateID: 
+    descriptions: []
+    udpPrice:
+      data: 00000000000000000000000000000000
+      num: 0
+    payouts: []
+--- !u!114 &5870799052968374581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5011079926181403265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3800af2fa6a447badd7adf617ed9db9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6366430375323513183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5011079926181403265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b552fb48177e92a499cacbac8174bc5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
