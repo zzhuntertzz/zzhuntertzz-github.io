@@ -1,4 +1,0 @@
-:root {
-    --connecting-line: #999999;
-    --connecting-line-hover: #10c0e7;
-}
